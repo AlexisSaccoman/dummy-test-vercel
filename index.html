@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swim &amp; Run Clermont-Ferrand 2027 | Clermont Triathlon (Auvergne)</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Participez au Swim &amp; Run de Clermont-Ferrand organisé par le Clermont Triathlon. Deux disciplines, un défi au cœur des volcans d'Auvergne : formats Découverte, Sprint et Longue Distance.">
+  <meta name="keywords" content="swimrun, swim and run, triathlon, Clermont-Ferrand, Auvergne, Puy-de-Dôme, trail, eau libre, FFTRI, sport outdoor">
+  <meta name="author" content="Clermont Triathlon">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swim &amp; Run Clermont-Ferrand 2027 | Deux disciplines. Un défi.">
+  <meta property="og:description" content="L'épreuve outdoor référence en Auvergne : enchaînez nage en eau libre volcanique et trail sur les sentiers des Puys.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1200&q=80">
+  <meta property="og:url" content="https://dummy-test-vercel.vercel.app">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Swim &amp; Run Clermont-Ferrand 2027 | Clermont Triathlon">
+  <meta name="twitter:description" content="Relevez le défi au cœur des volcans d'Auvergne. Formats Découverte, Sprint et Longue Distance.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit (Athletic & Clean) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- 1. STICKY HEADER & NAVIGATION -->
+  <!-- ================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="nav-wrapper container">
+      <!-- Brand Logo -->
+      <a href="#accueil" class="brand-logo" aria-label="Retour à l'accueil Clermont Triathlon">
+        <img src="assets/logo.svg" alt="Clermont Triathlon - Swim & Run" class="logo-image" width="220" height="55">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+          <li><a href="#evenement" class="nav-link">L'événement</a></li>
+          <li><a href="#formats" class="nav-link">Formats</a></li>
+          <li><a href="#parcours" class="nav-link">Parcours</a></li>
+          <li><a href="#programme" class="nav-link">Programme</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="header-actions">
+        <a href="#inscription" class="btn btn-primary btn-sm header-cta">
+          <span>S'inscrire</span>
+          <svg class="icon-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button (Hamburger) -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Ouvrir le menu de navigation">
+          <span class="hamburger-box">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-drawer-inner">
+        <ul class="mobile-nav-list">
+          <li><a href="#accueil" class="mobile-nav-link">Accueil</a></li>
+          <li><a href="#evenement" class="mobile-nav-link">L'événement</a></li>
+          <li><a href="#formats" class="mobile-nav-link">Formats de course</a></li>
+          <li><a href="#parcours" class="mobile-nav-link">Parcours &amp; Territoire</a></li>
+          <li><a href="#programme" class="mobile-nav-link">Programme officiel</a></li>
+          <li><a href="#pourquoi-participer" class="mobile-nav-link">Pourquoi participer</a></li>
+          <li><a href="#faq" class="mobile-nav-link">Foire aux questions</a></li>
+        </ul>
+        <div class="mobile-drawer-cta">
+          <a href="#inscription" class="btn btn-primary btn-full mobile-cta-btn">S'inscrire à l'édition 2027</a>
+          <p class="mobile-meta-info">📍 Clermont-Ferrand, Auvergne • FFTRI</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================================================================= -->
+  <!-- 2. HERO SECTION -->
+  <!-- ================================================================= -->
+  <section class="hero-section" id="accueil">
+    <!-- Immersive sports background with overlay -->
+    <div class="hero-media-wrapper">
+      <img src="assets/swim_pdd.png" 
+           alt="Nageur et coureur de Swim &amp; Run en Auvergne dans le Puy-de-Dôme" 
+           class="hero-bg-img" 
+           loading="eager"
+           fetchpriority="high"
+           onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1519315901367-f34ff9154487?auto=format&amp;fit=crop&amp;w=2000&amp;q=85';">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" aria-hidden="true"></div>
+    </div>
+
+    <div class="container hero-content">
+      <!-- Live Status / Location Badge -->
+      <div class="hero-badge animate-fade-in">
+        <span class="badge-dot pulse"></span>
+        <span class="badge-text">Édition 2027 • Clermont-Ferrand, Auvergne</span>
+      </div>
+
+      <!-- Main Event Title -->
+      <h1 class="hero-title animate-slide-up">
+        SWIM <span class="text-cyan">&amp;</span> RUN<br>
+        <span class="text-gradient">CLERMONT-FERRAND</span>
+      </h1>
+
+      <!-- Event Subtitle / Tagline -->
+      <p class="hero-subtitle animate-slide-up delay-1">
+        « Deux disciplines. Un défi. Une expérience unique. »
+      </p>
+
+      <!-- Key Metadata Pills (Location, Date Placeholder, Tag) -->
+      <div class="hero-meta-grid animate-slide-up delay-2">
+        <div class="meta-pill">
+          <svg class="meta-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <span class="meta-label">Lieu</span>
+            <span class="meta-val">Clermont-Ferrand &amp; Volcans (63)</span>
+          </div>
+        </div>
+
+        <div class="meta-pill highlight-pill">
+          <svg class="meta-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <div>
+            <span class="meta-label">Date prévisionnelle</span>
+            <span class="meta-val">Dimanche 13 Juin 2027</span>
+          </div>
+        </div>
+
+        <div class="meta-pill">
+          <svg class="meta-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div>
+            <span class="meta-label">Format</span>
+            <span class="meta-val">Solo ou Duo • 3 Distances</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions animate-slide-up delay-3">
+        <a href="#inscription" class="btn btn-primary btn-lg">
+          <span>S'inscrire à l'événement</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#evenement" class="btn btn-outline btn-lg">
+          <span>Découvrir l'événement</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+        </a>
+      </div>
+
+      <!-- Animated Scroll Indicator -->
+      <a href="#evenement" class="scroll-indicator" aria-label="Défiler vers la présentation de l'événement">
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+        <span class="scroll-text">Explorer</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- STATS COUNTER STRIP -->
+  <!-- ================================================================= -->
+  <section class="stats-strip" aria-label="Statistiques clés de la compétition">
+    <div class="container stats-grid">
+      <div class="stat-card" data-reveal>
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="3">0</span>
+        </div>
+        <p class="stat-label">Formats de course (XS, S, L)</p>
+      </div>
+
+      <div class="stat-card" data-reveal>
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="600">0</span>
+          <span class="stat-suffix">+</span>
+        </div>
+        <p class="stat-label">Athlètes attendus en Auvergne</p>
+      </div>
+
+      <div class="stat-card" data-reveal>
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="100">0</span>
+          <span class="stat-suffix">%</span>
+        </div>
+        <p class="stat-label">Nature volcanique &amp; Sentiers préservés</p>
+      </div>
+
+      <div class="stat-card" data-reveal>
+        <div class="stat-number-wrap">
+          <span class="stat-number" data-target="80">0</span>
+          <span class="stat-suffix">+</span>
+        </div>
+        <p class="stat-label">Bénévoles &amp; Secouristes passionnés</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 3. EVENT INTRODUCTION -->
+  <!-- ================================================================= -->
+  <section class="section event-intro-section" id="evenement">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">LE CONCEPT</span>
+        <h2 class="section-title">Qu'est-ce que le <span class="text-cyan">Swim &amp; Run</span> ?</h2>
+        <p class="section-desc">
+          Né dans les archipels scandinaves et magnifié par les reliefs du Massif Central, le Swim &amp; Run est une discipline outdoor d'endurance où l'on enchaîne à plusieurs reprises la natation en eau libre et la course à pied en pleine nature, <strong>sans jamais changer d'équipement</strong> ni s'arrêter dans une zone de transition.
+        </p>
+      </div>
+
+      <!-- Main Explanation Grid with Image and Text -->
+      <div class="intro-main-grid" data-reveal>
+        <div class="intro-media-card">
+          <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1000&q=80" 
+               alt="Nageur de swimrun en eau libre dans un lac naturel" 
+               class="intro-img" 
+               loading="lazy">
+          <div class="intro-media-badge">
+            <span class="badge-accent">Zéro transition</span>
+            <span>Vous nagez avec vos chaussures, vous courez avec votre combinaison</span>
+          </div>
+        </div>
+
+        <div class="intro-text-content">
+          <h3 class="intro-headline">L'alchimie brute de l'eau pure et de la terre des Puys</h3>
+          <p class="intro-body">
+            Organisé par les passionnés du <strong>Clermont Triathlon</strong>, cet événement invite sportifs néophytes et athlètes aguerris à vivre une immersion totale au cœur du département du Puy-de-Dôme. 
+          </p>
+          <p class="intro-body">
+            Que vous choisissiez de vous aligner en <strong>Solo</strong> ou en <strong>Duo (binôme solidaire)</strong>, la communion avec la nature, le souffle court sur les crêtes et la sensation revigorante de fendre les eaux claires des lacs auvergnats vous laisseront des souvenirs impérissables.
+          </p>
+
+          <div class="intro-bullet-points">
+            <div class="bullet-item">
+              <div class="bullet-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h20M2 6h20M2 18h20"/></svg>
+              </div>
+              <div>
+                <strong>Fluidité absolue :</strong> Pas de parc à vélo ni de transitions complexes. L'effort est continu et instinctif.
+              </div>
+            </div>
+            <div class="bullet-item">
+              <div class="bullet-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <strong>Sécurité &amp; Éthique :</strong> Épreuve encadrée selon les normes FFTRI avec respect scrupuleux des zones Natura 2000.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Visual Highlights Grid (Nature, Endurance, Challenge & Community) -->
+      <div class="highlights-grid">
+        <div class="highlight-card" data-reveal>
+          <div class="highlight-icon-wrapper cyan">
+            <!-- Mountain/Nature Icon -->
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+          </div>
+          <span class="highlight-step">PILIER 01</span>
+          <h4 class="highlight-title">Nature &amp; Volcans</h4>
+          <p class="highlight-text">
+            Une immersion rare dans des paysages volcaniques millénaires : sentiers en pouzzolane rouge, hêtraies d'altitude et eau vive filtrée par la roche volcanique.
+          </p>
+        </div>
+
+        <div class="highlight-card" data-reveal>
+          <div class="highlight-icon-wrapper orange">
+            <!-- Flame / Endurance Icon -->
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          </div>
+          <span class="highlight-step">PILIER 02</span>
+          <h4 class="highlight-title">Endurance &amp; Défi</h4>
+          <p class="highlight-text">
+            Le choc thermique maîtrisé entre l'eau revigorante et l'effort dynamique de la course en sous-bois forge une résilience et un dépassement de soi hors du commun.
+          </p>
+        </div>
+
+        <div class="highlight-card" data-reveal>
+          <div class="highlight-icon-wrapper green">
+            <!-- Team / Community Icon -->
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span class="highlight-step">PILIER 03</span>
+          <h4 class="highlight-title">Esprit de Communauté</h4>
+          <p class="highlight-text">
+            L'esprit club par excellence : encouragements solidaires entre athlètes, bénévoles dévoués aux ravitaillements et convivialité auvergnate à l'arrivée.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 4. RACE FORMATS -->
+  <!-- ================================================================= -->
+  <section class="section formats-section" id="formats">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">LES DISTANCES</span>
+        <h2 class="section-title">Choisissez <span class="text-gradient">votre format</span></h2>
+        <p class="section-desc">
+          Trois formats adaptés à votre niveau d'entraînement, du baptême accessible à l'odyssée d'endurance alpine. Distances indicatives en cours de calage officiel.
+        </p>
+      </div>
+
+      <div class="formats-grid">
+        
+        <!-- Format 1: Découverte (XS) -->
+        <div class="format-card" data-reveal>
+          <div class="format-header">
+            <div class="format-tag">FORMAT DÉCOUVERTE</div>
+            <h3 class="format-name">L'Initiation Volcanique</h3>
+            <p class="format-subtitle">Parfait pour s'initier aux joies du Swim &amp; Run sans pression.</p>
+          </div>
+
+          <div class="format-distance-summary">
+            <div class="distance-pill">
+              <span class="dist-icon">🏊</span>
+              <span class="dist-data">~1.2 km</span>
+              <span class="dist-type">2 sections eau</span>
+            </div>
+            <div class="distance-pill">
+              <span class="dist-icon">🏃</span>
+              <span class="dist-data">~6.0 km</span>
+              <span class="dist-type">3 sections trail</span>
+            </div>
+          </div>
+
+          <div class="format-total">
+            <span class="total-label">Distance Totale Estimée :</span>
+            <span class="total-val">~ 7.2 km</span>
+          </div>
+
+          <ul class="format-features">
+            <li><span class="check-icon">✓</span> Accessible dès 16 ans (Solo ou Duo)</li>
+            <li><span class="check-icon">✓</span> Nage proche des berges sécurisées</li>
+            <li><span class="check-icon">✓</span> Sentiers de trail roulants peu techniques</li>
+            <li><span class="check-icon">✓</span> Dénivelé modéré : ~120 m D+</li>
+            <li><span class="check-icon">✓</span> Matériel de flottaison (pull-buoy) autorisé</li>
+          </ul>
+
+          <div class="format-pricing-box">
+            <span class="price-prefix">À partir de</span>
+            <span class="price-amount">35 €</span>
+            <span class="price-suffix">/ participant [estimatif]</span>
+          </div>
+
+          <a href="#inscription" class="btn btn-outline btn-full format-btn" data-format="Découverte">
+            Sélectionner ce format
+          </a>
+        </div>
+
+        <!-- Format 2: Sprint (S) - Featured / Most Popular -->
+        <div class="format-card featured-card" data-reveal>
+          <div class="featured-ribbon">LE PLUS POPULAIRE</div>
+          <div class="format-header">
+            <div class="format-tag tag-cyan">FORMAT SPRINT</div>
+            <h3 class="format-name">Le Défi des Puys</h3>
+            <p class="format-subtitle">L'équilibre idéal entre intensité, vitesse et gestion de course.</p>
+          </div>
+
+          <div class="format-distance-summary">
+            <div class="distance-pill">
+              <span class="dist-icon">🏊</span>
+              <span class="dist-data">~3.0 km</span>
+              <span class="dist-type">4 sections eau</span>
+            </div>
+            <div class="distance-pill">
+              <span class="dist-icon">🏃</span>
+              <span class="dist-data">~14.0 km</span>
+              <span class="dist-type">5 sections trail</span>
+            </div>
+          </div>
+
+          <div class="format-total">
+            <span class="total-label">Distance Totale Estimée :</span>
+            <span class="total-val text-cyan">~ 17.0 km</span>
+          </div>
+
+          <ul class="format-features">
+            <li><span class="check-icon check-cyan">✓</span> Idéal sportifs réguliers (Solo ou Duo)</li>
+            <li><span class="check-icon check-cyan">✓</span> Traversée intégrale du grand plan d'eau</li>
+            <li><span class="check-icon check-cyan">✓</span> Passages en crête panoramique</li>
+            <li><span class="check-icon check-cyan">✓</span> Dénivelé moyen : ~350 m D+</li>
+            <li><span class="check-icon check-cyan">✓</span> Ravitaillements liquides &amp; solides (x2)</li>
+          </ul>
+
+          <div class="format-pricing-box">
+            <span class="price-prefix">À partir de</span>
+            <span class="price-amount text-cyan">55 €</span>
+            <span class="price-suffix">/ participant [estimatif]</span>
+          </div>
+
+          <a href="#inscription" class="btn btn-primary btn-full format-btn" data-format="Sprint">
+            Sélectionner le Sprint
+          </a>
+        </div>
+
+        <!-- Format 3: Longue Distance (L) -->
+        <div class="format-card" data-reveal>
+          <div class="format-header">
+            <div class="format-tag tag-orange">LONGUE DISTANCE</div>
+            <h3 class="format-name">L'Ultra Cratère</h3>
+            <p class="format-subtitle">Une immersion engagée pour athlètes expérimentés.</p>
+          </div>
+
+          <div class="format-distance-summary">
+            <div class="distance-pill">
+              <span class="dist-icon">🏊</span>
+              <span class="dist-data">~5.5 km</span>
+              <span class="dist-type">6 sections eau</span>
+            </div>
+            <div class="distance-pill">
+              <span class="dist-icon">🏃</span>
+              <span class="dist-data">~26.0 km</span>
+              <span class="dist-type">7 sections trail</span>
+            </div>
+          </div>
+
+          <div class="format-total">
+            <span class="total-label">Distance Totale Estimée :</span>
+            <span class="total-val">~ 31.5 km</span>
+          </div>
+
+          <ul class="format-features">
+            <li><span class="check-icon">✓</span> Pour nageurs-traileurs aguerris (Duo privilégié)</li>
+            <li><span class="check-icon">✓</span> Nage hauturière en eau fraîche</li>
+            <li><span class="check-icon">✓</span> Sentiers techniques &amp; pierriers volcaniques</li>
+            <li><span class="check-icon">✓</span> Dénivelé exigeant : ~650 m D+</li>
+            <li><span class="check-icon">✓</span> Barrières horaires adaptées &amp; 4 ravitaillements</li>
+          </ul>
+
+          <div class="format-pricing-box">
+            <span class="price-prefix">À partir de</span>
+            <span class="price-amount">80 €</span>
+            <span class="price-suffix">/ participant [estimatif]</span>
+          </div>
+
+          <a href="#inscription" class="btn btn-outline btn-full format-btn" data-format="Longue Distance">
+            Sélectionner la Longue Distance
+          </a>
+        </div>
+
+      </div>
+
+      <div class="format-disclaimer-note" data-reveal>
+        <span class="note-icon">ℹ️</span>
+        <p><strong>Note d'organisation :</strong> Les distances mentionnées ci-dessus sont des estimations indicatives d'avant-projet soumises aux validations environnementales et arrêtés préfectoraux. Les traces GPS officielles au format .GPX seront fournies à tous les inscrits un mois avant l'épreuve.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 5. COURSE & NATURAL ENVIRONMENT -->
+  <!-- ================================================================= -->
+  <section class="section course-section" id="parcours">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">LE DÉCOR NATUREL</span>
+        <h2 class="section-title">Entre <span class="text-cyan">eaux pures</span> et <span class="text-orange">crêtes volcaniques</span></h2>
+        <p class="section-desc">
+          L'Auvergne offre un écrin naturel sauvage préservé. Découvrez l'esprit du parcours conçu pour minimiser l'empreinte environnementale tout en offrant des panoramas spectaculaires.
+        </p>
+      </div>
+
+      <!-- Course Route Map & Segments Showcase -->
+      <div class="course-display-card" data-reveal>
+        <!-- Custom Vector Map Placeholder -->
+        <div class="course-map-container">
+          <img src="assets/map-placeholder.svg" alt="Schéma prévisionnel du tracé Swim and Run Clermont-Ferrand" class="course-map-img" loading="lazy">
+          <div class="map-interactive-badge">
+            <span class="badge-dot pulse"></span>
+            <span>Tracé en cours de validation FFTRI • Secteur Clermont &amp; Lacs des Volcans</span>
+          </div>
+        </div>
+
+        <!-- Segments Breakdown -->
+        <div class="segments-breakdown">
+          <h3 class="segments-heading">Analyse des Segments de Course</h3>
+          
+          <div class="segments-grid">
+            <div class="segment-item">
+              <div class="segment-badge swim-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><path d="M2 18c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/></svg>
+                <span>Eau Libre Volcanique</span>
+              </div>
+              <h4>Nage en Eaux Claires</h4>
+              <p>Une eau de lac volcanique d'une pureté exceptionnelle (classée A+ par l'ARS). Température estimée entre 16°C et 19°C en juin. Combinaison néoprène généralement obligatoire ou fortement recommandée.</p>
+            </div>
+
+            <div class="segment-item">
+              <div class="segment-badge run-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 4v16M17 8l-4-4-4 4"/></svg>
+                <span>Sentiers &amp; Pouzzolane</span>
+              </div>
+              <h4>Trail sur Crêtes &amp; Sous-Bois</h4>
+              <p>Enchaînement de monotraces techniques souples en sous-bois de hêtres et de montées toniques sur sol volcanique drainant. Chaussures de trail avec crampons agressifs indispensables.</p>
+            </div>
+
+            <div class="segment-item">
+              <div class="segment-badge eco-badge">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>Éco-responsabilité</span>
+              </div>
+              <h4>Zéro Plastique &amp; Natura 2000</h4>
+              <p>Zone de quiétude respectée, balisage 100% biodégradable et réutilisable, ravitaillements en gobelets réutilisables personnels obligatoires. Laissez la nature plus propre que vous ne l'avez trouvée.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Auvergne Landscape Photo Gallery Cards -->
+      <div class="landscape-gallery" data-reveal>
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Reliefs et montagnes auvergnates" class="gallery-img" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-title">Reliefs des Volcans</span>
+            <span class="caption-sub">Des panoramas d'altitude à 360°</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Lac auvergnat calme et naturel" class="gallery-img" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-title">Lacs de Cratère</span>
+            <span class="caption-sub">Des eaux calmes bordées de forêts</span>
+          </div>
+        </div>
+
+        <div class="gallery-card">
+          <img src="https://images.unsplash.com/photo-1486218119243-13883505764c?auto=format&fit=crop&w=800&q=80" alt="Coureur de trail sur sentier forestier" class="gallery-img" loading="lazy">
+          <div class="gallery-caption">
+            <span class="caption-title">Sous-bois &amp; Monotraces</span>
+            <span class="caption-sub">Des sentiers sauvages et préservés</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 6. PROGRAMME (TIMELINE) -->
+  <!-- ================================================================= -->
+  <section class="section programme-section" id="programme">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">LE TIMING DU WEEK-END</span>
+        <h2 class="section-title">Programme de <span class="text-gradient">la journée</span></h2>
+        <p class="section-desc">
+          Déroulé prévisionnel de l'événement. Tous les horaires sont communiqués à titre indicatif et seront confirmés dans le guide du coureur envoyé avant la course.
+        </p>
+      </div>
+
+      <div class="timeline-wrapper" data-reveal>
+        
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time">07h00 - 08h30</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">VILLAGE DÉPART</div>
+            <h3 class="timeline-title">Accueil des athlètes &amp; Retrait des dossards</h3>
+            <p class="timeline-desc">
+              Vérification des licences FFTRI ou pièces justificatives médicales, remise des puces électroniques de chronométrage, bonnets officiels numérotés et chasubles pour les binômes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time">08h45</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge badge-alert">OBLIGATOIRE</div>
+            <h3 class="timeline-title">Briefing de course &amp; Consignes de sécurité</h3>
+            <p class="timeline-desc">
+              Point météo en direct, température de l'eau, rappel des règles d'entraide, localisation des postes de secours et consignes de respect environnemental par le directeur de course.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item highlight-item">
+          <div class="timeline-marker">
+            <span class="marker-dot pulse"></span>
+            <span class="marker-time text-orange">09h15</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge tag-orange">DÉPART OFFICIEL</div>
+            <h3 class="timeline-title">Départ Format Longue Distance (~31.5 km)</h3>
+            <p class="timeline-desc">
+              Mise à l'eau simultanée des participants Solo et équipes Duo pour le grand défi volcanique. Barrière horaire fixée à la transition intermédiaire T3.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time text-cyan">10h00</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge tag-cyan">DÉPART</div>
+            <h3 class="timeline-title">Départ Format Sprint (~17.0 km)</h3>
+            <p class="timeline-desc">
+              Lancement du format référence. Départ cadencé par vagues régulées pour garantir un confort et une fluidité maximale lors de la première section de natation.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 5 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time">10h45</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">DÉPART</div>
+            <h3 class="timeline-title">Départ Format Découverte (~7.2 km)</h3>
+            <p class="timeline-desc">
+              Entrée en lice des débutants et jeunes compétiteurs pour une matinée dynamique pleine d'encouragements et de bonne humeur.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 6 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time">12h30 - 15h00</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge badge-green">ARRIVÉE &amp; RAVITAILLEMENT</div>
+            <h3 class="timeline-title">Arrivées des Finishers &amp; Buffet du Terroir</h3>
+            <p class="timeline-desc">
+              Remise de la médaille finisher éco-conçue, zone de récupération kiné/ostéo et ouverture du buffet auvergnat composé de spécialités régionales et produits locaux.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 7 -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="marker-dot"></span>
+            <span class="marker-time">15h30</span>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-badge">CÉRÉMONIE</div>
+            <h3 class="timeline-title">Remise des prix &amp; Clôture festive</h3>
+            <p class="timeline-desc">
+              Podiums officiels scratch, catégories d'âges, challenges Solo et Duo, suivi du mot de remerciement aux 80 bénévoles et partenaires de la région Auvergne-Rhône-Alpes.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 7. WHY PARTICIPATE -->
+  <!-- ================================================================= -->
+  <section class="section why-section" id="pourquoi-participer">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">LES POINTS FORTS</span>
+        <h2 class="section-title">Pourquoi participer au <span class="text-cyan">Swim &amp; Run</span> ?</h2>
+        <p class="section-desc">
+          Plus qu'un dossard, une véritable aventure humaine et sportive ancrée dans l'identité sportive de Clermont-Ferrand.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <!-- Reason 1 -->
+        <div class="why-card" data-reveal>
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          </div>
+          <h3 class="why-card-title">Un Défi Sportif Stimulant</h3>
+          <p class="why-card-text">
+            Rompez avec la monotonie des courses traditionnelles. L'alternance constante des nages en eau vivifiante et des ascensions trail fait travailler l'ensemble des groupes musculaires et la stratégie mentale d'adaptation.
+          </p>
+        </div>
+
+        <!-- Reason 2 -->
+        <div class="why-card" data-reveal>
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="why-card-title">Le Cadre Sauvage d'Auvergne</h3>
+          <p class="why-card-text">
+            Nager dans des eaux bordées de cratères volcaniques endormis et courir sur des crêtes offrant un panorama d'exception sur la Chaîne des Puys, classée au patrimoine mondial de l'UNESCO.
+          </p>
+        </div>
+
+        <!-- Reason 3 -->
+        <div class="why-card" data-reveal>
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="why-card-title">Ambiance Conviviale &amp; Club</h3>
+          <p class="why-card-text">
+            L'âme du Clermont Triathlon : une organisation rigoureuse menée par des triathlètes expérimentés, un village d'arrivée festif, de la musique live et un ravitaillement aux saveurs locales d'Auvergne.
+          </p>
+        </div>
+
+        <!-- Reason 4 -->
+        <div class="why-card" data-reveal>
+          <div class="why-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 12l-4-4-4 4M12 16V8"/></svg>
+          </div>
+          <h3 class="why-card-title">Accessible à Tous Niveaux</h3>
+          <p class="why-card-text">
+            Avec un format Découverte très accessible (dès 16 ans) jusqu'au tracé Longue Distance pour les passionnés d'endurance, chacun trouve son rythme et son niveau de challenge, en solo ou en duo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 8. FAQ ACCORDION -->
+  <!-- ================================================================= -->
+  <section class="section faq-section" id="faq">
+    <div class="container">
+      <div class="section-header text-center" data-reveal>
+        <span class="section-tag">QUESTIONS FRÉQUENTES</span>
+        <h2 class="section-title">Tout ce que vous devez <span class="text-cyan">savoir</span></h2>
+        <p class="section-desc">
+          Réglementation, matériel conseillé, certificats médicaux et organisation pratique : retrouvez les réponses de notre équipe.
+        </p>
+      </div>
+
+      <div class="faq-container" data-reveal>
+        
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-1">
+            <span class="faq-title">Quel niveau de natation en eau libre est requis pour participer ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-1">
+            <div class="faq-body">
+              <p>
+                Il est impératif d'être à l'aise en milieu naturel (absence de ligne d'eau, fond non visible). Pour le <strong>Format Découverte</strong>, être capable de nager 500m en continu en brasse ou crawl suffit amplement. Pour les formats <strong>Sprint</strong> et <strong>Longue Distance</strong>, une pratique régulière de la nage en eau libre ou du triathlon est vivement conseillée pour aborder sereinement les différentes portions aquatiques.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-2">
+            <span class="faq-title">Quel est l'équipement obligatoire et le matériel recommandé ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-2">
+            <div class="faq-body">
+              <p><strong>Matériel obligatoire (selon le règlement fédéral FFTRI) :</strong></p>
+              <ul>
+                <li>Bonnet de bain officiel fourni par l'organisation (port obligatoire lors de chaque nage).</li>
+                <li>Sifflet de sécurité fixé à votre combinaison ou gilet.</li>
+                <li>Dossard / chasuble officiel visible tout au long du parcours.</li>
+                <li>Gobelet réutilisable personnel (aucun gobelet jetable sur les ravitaillements).</li>
+              </ul>
+              <p><strong>Matériel autorisé et recommandé :</strong></p>
+              <ul>
+                <li>Combinaison néoprène (obligatoire si température de l'eau inférieure à 16°C).</li>
+                <li>Pull-buoy attaché avec sangle élastique pour compenser le poids des chaussures en nageant.</li>
+                <li>Plaquettes de natation (paddles) et longe de traction élastique pour les équipes Duo.</li>
+                <li>Chaussures de trail légères et drainantes avec chaussettes anti-frottement.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-3">
+            <span class="faq-title">Comment s'inscrire et quelles sont les pièces justificatives exigées ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-3">
+            <div class="faq-body">
+              <p>
+                Les inscriptions s'effectuent exclusivement en ligne via notre plateforme sécurisée partenaire. Pour valider votre dossier :
+              </p>
+              <ul>
+                <li><strong>Pour les licenciés FFTRI :</strong> une copie de votre licence compétition 2026/2027 en cours de validité.</li>
+                <li><strong>Pour les non-licenciés :</strong> la souscription au Pass Compétition FFTRI lors de l'inscription en ligne et la validation du Questionnaire de Santé officiel (ou certificat médical de non-contre-indication à la pratique du Swimrun en compétition de moins d'un an).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-4">
+            <span class="faq-title">Peut-on participer en Solo ou le format Duo est-il imposé ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-4">
+            <div class="faq-body">
+              <p>
+                Les deux options sont proposées ! Vous pouvez vous inscrire en <strong>Solo</strong> sur les formats Découverte et Sprint. Sur le <strong>Format Longue Distance</strong>, l'inscription en <strong>Duo (binôme solidaire)</strong> est vivement encouragée pour des raisons d'entraide et d'esprit originel du Swimrun (la distance entre les deux coéquipiers ne doit jamais excéder 10 mètres en nage et 5 mètres en course à pied).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-5">
+            <span class="faq-title">Quelles sont les dispositions médicales et de sécurité sur le tracé ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-5">
+            <div class="faq-body">
+              <p>
+                La sécurité est la priorité absolue du Clermont Triathlon. Le dispositif comprend :
+              </p>
+              <ul>
+                <li>Des embarcations nautiques motorisées et des sauveteurs en kayak/paddle sur l'ensemble des zones de nage.</li>
+                <li>Une équipe médicale dédiée (médecin urgentiste, infirmiers, secouristes de la Protection Civile).</li>
+                <li>Des liaisons radio permanentes entre les postes de transition et le poste de commandement central.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-6">
+            <span class="faq-title">Que se passe-t-il en cas de météo défavorable ou de température d'eau trop basse ?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-ans-6">
+            <div class="faq-body">
+              <p>
+                Conformément à la réglementation FFTRI, la température de l'eau est mesurée 2 heures avant chaque départ. Si la température est inférieure à 12°C ou en cas d'alerte orageuse majeure, l'organisation appliquera un <strong>plan de repli sécurisé</strong> (parcours modifié avec réduction des portions natation ou bascule en format Trail / Duathlon nature).
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 9. REGISTRATION CTA -->
+  <!-- ================================================================= -->
+  <section class="section cta-section" id="inscription">
+    <div class="cta-backdrop-glow"></div>
+    <div class="container cta-container" data-reveal>
+      
+      <div class="cta-content-box">
+        <span class="cta-tag">OUVERTURE PROCHAINE DES DOSSARDS</span>
+        <h2 class="cta-title">
+          Prêt à plonger dans l'aventure des <span class="text-gradient">Volcans</span> ?
+        </h2>
+        <p class="cta-subtitle">
+          Les places sont strictement limitées afin de préserver les sentiers naturels et de garantir une sécurité irréprochable sur l'eau. Réservez votre place dès l'ouverture des inscriptions.
+        </p>
+
+        <!-- Countdown Placeholder Component -->
+        <div class="countdown-wrapper" aria-label="Compte à rebours avant l'ouverture des inscriptions">
+          <div class="countdown-unit">
+            <span class="countdown-num" id="cd-days">45</span>
+            <span class="countdown-label">Jours</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-num" id="cd-hours">12</span>
+            <span class="countdown-label">Heures</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-num" id="cd-minutes">30</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="countdown-sep">:</div>
+          <div class="countdown-unit">
+            <span class="countdown-num" id="cd-seconds">00</span>
+            <span class="countdown-label">Secondes</span>
+          </div>
+        </div>
+
+        <!-- Registration Action Buttons -->
+        <div class="cta-actions">
+          <button type="button" class="btn btn-primary btn-xl" id="open-register-modal-btn">
+            <span>Accéder au portail d'inscription</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <p class="cta-placeholder-hint">
+          Lien de démonstration d'inscription : <code>https://inscriptions.clermont-triathlon.fr/swimrun-2027</code> [URL fictive]
+        </p>
+
+        <!-- Guarantees Badges -->
+        <div class="cta-guarantees">
+          <div class="guarantee-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Paiement sécurisé en ligne</span>
+          </div>
+          <div class="guarantee-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <span>Assurance annulation optionnelle</span>
+          </div>
+          <div class="guarantee-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            <span>Label Développement Durable FFTRI</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- 10. FOOTER -->
+  <!-- ================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        
+        <!-- Col 1: Club Identity -->
+        <div class="footer-col footer-brand">
+          <img src="assets/logo.svg" alt="Clermont Triathlon" class="footer-logo" width="200" height="50">
+          <p class="footer-text">
+            Club d'athlètes passionnés fondé à Clermont-Ferrand, affilié à la Fédération Française de Triathlon (FFTRI). Dédié au développement des disciplines enchaînées et au respect du patrimoine auvergnat.
+          </p>
+          <div class="footer-affiliations">
+            <span class="badge-mini">Affilié FFTRI n° 0463</span>
+            <span class="badge-mini">Ligue AURA</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#evenement">Le concept Swim &amp; Run</a></li>
+            <li><a href="#formats">Formats Découverte, Sprint, L</a></li>
+            <li><a href="#parcours">Parcours &amp; Volcans</a></li>
+            <li><a href="#programme">Programme officiel</a></li>
+            <li><a href="#faq">Foire aux questions</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Practical & Regulations -->
+        <div class="footer-col">
+          <h4 class="footer-title">Athlètes &amp; Bénévoles</h4>
+          <ul class="footer-links">
+            <li><a href="#formats">Guide des catégories FFTRI</a></li>
+            <li><a href="#faq">Règlement officiel de l'épreuve</a></li>
+            <li><a href="#faq">Charte environnementale du coureur</a></li>
+            <li><a href="#inscription">Devenir bénévole / Signaleur</a></li>
+            <li><a href="#inscription">Espace partenaires &amp; Presse</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact & Social -->
+        <div class="footer-col">
+          <h4 class="footer-title">Contact &amp; Échange</h4>
+          <p class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Maison des Sports, Place des Bughes<br>63000 Clermont-Ferrand, France</span>
+          </p>
+          <p class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:contact@clermont-triathlon.fr-placeholder">contact@clermont-triathlon.fr [fictif]</a>
+          </p>
+
+          <!-- Social Links with clean SVG icons -->
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Suivez le Clermont Triathlon sur Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Suivez le Clermont Triathlon sur Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://strava.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Rejoignez le club Clermont Triathlon sur Strava">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7.01 13.828h4.172"/></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Vidéos des éditions précédentes sur YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer Bottom Legal Strip -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">
+          &copy; 2027 Clermont Triathlon. Tous droits réservés. Événement fictif créé à titre de démonstration technique.
+        </p>
+        <div class="legal-links">
+          <a href="#" class="legal-link" id="legal-modal-trigger">Mentions Légales</a>
+          <span class="sep">•</span>
+          <a href="#" class="legal-link" id="privacy-trigger">Politique de Confidentialité</a>
+          <span class="sep">•</span>
+          <a href="#" class="legal-link" id="rules-trigger">Règlement de Course</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================================================================= -->
+  <!-- MODAL: REGISTRATION DEMO PREVIEW -->
+  <!-- ================================================================= -->
+  <div class="modal-backdrop" id="register-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button class="modal-close" id="close-register-modal-btn" aria-label="Fermer la fenêtre">&times;</button>
+      
+      <div class="modal-header">
+        <span class="section-tag">SIMULATION D'INSCRIPTION</span>
+        <h3 class="modal-title" id="modal-title">Rejoignez le Swim &amp; Run Clermont 2027</h3>
+        <p class="modal-subtitle">Sélectionnez votre formule pour accéder au formulaire pré-rempli.</p>
+      </div>
+
+      <form class="modal-form" id="register-form" onsubmit="return false;">
+        <div class="form-group">
+          <label for="form-format" class="form-label">Format de course souhaité</label>
+          <select id="form-format" class="form-select" required>
+            <option value="sprint" selected>Format Sprint (~17 km) - Le plus populaire</option>
+            <option value="decouverte">Format Découverte (~7.2 km) - Initiation</option>
+            <option value="longue">Format Longue Distance (~31.5 km) - L'Ultra</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="form-category" class="form-label">Catégorie de participation</label>
+          <select id="form-category" class="form-select">
+            <option value="duo-mixte">Binôme Duo Mixte</option>
+            <option value="duo-hommes">Binôme Duo Hommes</option>
+            <option value="duo-femmes">Binôme Duo Femmes</option>
+            <option value="solo-homme">Solo Individuel Homme</option>
+            <option value="solo-femme">Solo Individuel Femme</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-half">
+            <label for="form-firstname" class="form-label">Prénom</label>
+            <input type="text" id="form-firstname" class="form-input" placeholder="ex: Julien" required>
+          </div>
+          <div class="form-group col-half">
+            <label for="form-lastname" class="form-label">Nom</label>
+            <input type="text" id="form-lastname" class="form-input" placeholder="ex: Dubois" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="form-email" class="form-label">Adresse email</label>
+          <input type="email" id="form-email" class="form-input" placeholder="nom@exemple.fr" required>
+        </div>
+
+        <div class="form-notice">
+          <span class="notice-icon">🔒</span>
+          <span>Démonstration : vos données restent strictement locales dans votre navigateur et ne sont transmises à aucun serveur externe.</span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full" id="submit-reg-btn">
+          Confirmer la pré-inscription
+        </button>
+
+        <div id="form-feedback" class="form-feedback" style="display: none;"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
